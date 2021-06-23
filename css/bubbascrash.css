@@ -1,0 +1,12 @@
+html, body {
+    min-height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+body * {
+    box-sizing: border-box;
+}

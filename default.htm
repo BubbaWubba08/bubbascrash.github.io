@@ -6,16 +6,14 @@
         <title>Bubba's Crash</title>
     </head>
     <body>
-        <div>
-hey dilly
+        <div id="bubbas_crash">
+            
         </div>
         <script>
             // You need to edit this value
             var gameHash = 'cadaaef371bc977aae209dc9be1a30665550adf89fa40fc17771051914d1f9fc';
 
-            /* 
-            Below this line is the formula which we use to calculate the result
-            */
+            /* Below this line is the formula which we use to calculate the result */
             var crypto = require('crypto');
             const INSTANT_CRASH_PERCENTAGE = 6.66;
             var crashPointFromHash = function (serverSeed) {
